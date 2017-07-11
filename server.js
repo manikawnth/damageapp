@@ -3,7 +3,8 @@ Put content of angular2 build into 'public' folder.
 */
 const html = __dirname + '/client';
 
-const port = 4000;
+//const port = 4000;
+const port = process.env.PORT;
 const apiUrl = '/api';
 
 // Express
